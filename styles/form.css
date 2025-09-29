@@ -1,0 +1,44 @@
+form {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact label {
+  visibility: hidden;
+}
+
+input {
+  width: 100%;
+  padding: 0.4rem;
+  margin: 0.4rem 0.2rem;
+  border-radius: 0.3rem;
+}
+
+textarea {
+  resize: none;
+  width: 100%;
+  min-height: 75px;
+  padding: 0.2rem;
+  margin: 0.4rem 0.2rem;
+  border-radius: 0.3rem;
+}
+
+input:focus,
+textarea:focus {
+  outline: 0.15rem solid var(--color-accent-blue);
+}
+
+.btn.btn-primary {
+  background-color: var(--color-text);
+  color: var(--color-background);
+  width: 100%;
+  padding: 0.6rem;
+  border-radius: 0.3rem;
+  margin: 0.4rem 0.2rem;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.btn.btn-primary:hover {
+  background-color: var(--color-black-soft);
+}

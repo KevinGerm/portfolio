@@ -1,0 +1,43 @@
+section {
+  margin: 2rem 1rem;
+}
+
+.introducing {
+  text-align: center;
+  width: 100%;
+}
+
+.introducing p {
+  line-height: var(--lh-md);
+  margin: 1.3rem 0;
+}
+
+.card-content {
+  background-color: #ffffff;
+  padding: 1rem;
+  margin: 0.5rem 0;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: box-shadow 0.2s ease;
+}
+
+.card-content:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card-content span {
+  font-weight: 300;
+  padding: 0.5rem 0;
+}
+
+.card-content p {
+  line-height: var(--lh-sm);
+  margin: 0.4rem 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .card-content {
+    transition: none;
+    transform: none;
+  }
+}
